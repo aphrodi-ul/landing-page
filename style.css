@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #f0f0f0;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+header, footer{
+    background: linear-gradient(90deg, #18283d 0%, #274060 100%);
+}
+
+.logo a{
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.hero-section{
+    display: flex;
+    justify-content: space-around;
+    gap: 135px;
+}
+
+img{
+    border-radius: 6px; 
+    transform-origin: bottom center;
+    transform: rotate(-2deg) scale(1.2) translate(-40px, 124px);
+}
+
+
+.hero-content{
+    width: 600px;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding-left: 84px;
+}
+
+.hero-content h1{
+    font-size: 48px;
+    font-weight: 900px;
+    color:#f9faf8;
+}
+
+.hero-content p{
+    width: 400px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+.nav-bar{
+    background-color: #0f1925;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.right-links{
+    display: flex;
+    gap: 20px;
+}
+
+.buttons{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.cta-button{
+    border-radius: 6px;
+    padding: 10px 30px;
+    background-color:#3882f6;
+    color: #f0f0f0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.icon-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    gap: 10px;
+}
+
+.info-text{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.icons{
+    display: flex;
+    text-align: center;
+    gap: 50px;
+}
+
+.testimony{
+    background-color: #e5e7eb;
+    padding: 100px 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-end;
+}
+
+quote{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+}
+
+.cta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 60px;
+}
+
+.cta h2{
+    color: #1f2937;
+    font-size: 24px;
+}
+
+.cta p{
+    color: #1f2937;
+    padding-bottom: 16px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
